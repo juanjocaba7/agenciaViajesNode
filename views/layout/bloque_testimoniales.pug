@@ -1,0 +1,11 @@
+
+.row.testimoniales 
+            each perro in testimoniales 
+                .col-md-6.col-lg-4.mb-4 
+                    .card
+                        .card-body
+                            blockquote.blockquote 
+                            p.mb-0 
+                                | #{perro.mensaje}
+                            footer.blockquote-footer 
+                                | #{perro.nombre}

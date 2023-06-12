@@ -1,0 +1,30 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5 
+        .row 
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="Imagen Sobre Nosotros", class="img-fluid")
+
+            .col-md-7 
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nisl dui, molestie quis sem et, lacinia condimentum justo. Donec ac gravida turpis, eget tincidunt est. Sed vel sapien velit. In hac habitasse platea dictumst. Fusce quis lacus sed ex finibus sollicitudin. Morbi varius ut neque non mattis. Praesent sodales massa in cursus tincidunt.
+
+                p Vestibulum id neque augue. Donec iaculis lobortis nisl, eu eleifend nisl. Aliquam facilisis, neque eget sodales efficitur, mauris sem suscipit risus, vitae venenatis purus nisi id mauris. Mauris non elit id risus mollis rutrum quis non velit. 
+
+                p Maecenas et augue et nisi aliquam accumsan. Sed iaculis velit quis nunc tempus, id scelerisque arcu dapibus. Fusce auctor a purus in semper. Fusce malesuada, diam lobortis laoreet cursus, diam lorem luctus augue, non ultrices neque quam non tellus. Duis tempus maximus nibh, ut vehicula arcu pellentesque in. .
+    .listado-iconos 
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4 
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mbt-4")
+                    h2.mb-4 Seguridad 
+                    p Fusce malesuada, diam lobortis laoreet cursus, diam lorem luctus augue, non ultrices neque quam non tellus. 
+                .col-md-4 
+                    img(src="img/icono_destinos.svg", alt="icono destonos", class="img-fluid mbt-4")
+                    h2.mb-4 Mejores Destinos 
+                    p Fusce malesuada, diam lobortis laoreet cursus, diam lorem luctus augue, non ultrices neque quam non tellus. 
+                .col-md-4 
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mbt-4")
+                    h2.mb-4 Los Mejores Precios 
+                    p Fusce malesuada, diam lobortis laoreet cursus, diam lorem luctus augue, non ultrices neque quam non tellus. 
